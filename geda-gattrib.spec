@@ -5,7 +5,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	6555466492f3273dbefb772bd4ffd486
+# Source0-md5:	74295c8b0b0d78ebf0953673ecdfb28f
 URL:		http://www.geda.seul.org/
 BuildRequires:	glib2-devel >= 2.2.0
 BuildRequires:	libgeda-devel >= %{version}
