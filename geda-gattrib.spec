@@ -1,4 +1,5 @@
 Summary:	Gattrib for gEDA project
+Summary(pl):	Gattrib dla projektu gEDA
 Name:		geda-gattrib
 Version:	20061020
 Release:	0.1
@@ -15,6 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Gattrib for the gEDA project.
+
+%description -l pl
+Gattrib dla projektu gEDA.
 
 %prep
 %setup -q
