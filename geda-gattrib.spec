@@ -1,5 +1,5 @@
 Summary:	Gattrib for gEDA project
-Summary(pl.UTF-8):   Gattrib dla projektu gEDA
+Summary(pl.UTF-8):	Gattrib dla projektu gEDA
 Name:		geda-gattrib
 Version:	20061020
 Release:	0.1
