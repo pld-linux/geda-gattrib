@@ -1,12 +1,12 @@
 Summary:	Gattrib for gEDA project
 Summary(pl.UTF-8):	Gattrib dla projektu gEDA
 Name:		geda-gattrib
-Version:	1.2.0
+Version:	1.4.0
 Release:	1
 License:	GPL
 Group:		Applications
-Source0:	ftp://ftp.geda.seul.org/pub/geda/release/v1.2/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	39acaa05c12c78f5a1fece22760e9d91
+Source0:	ftp://ftp.geda.seul.org/pub/geda/release/v1.4/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	e3a455f46c37fcf2ff93cc87bf20dc32
 URL:		http://www.geda.seul.org/
 BuildRequires:	glib2-devel >= 2.2.0
 BuildRequires:	libgeda-devel >= %{version}
