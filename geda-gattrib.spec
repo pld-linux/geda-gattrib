@@ -1,12 +1,12 @@
 Summary:	Gattrib for gEDA project
 Summary(pl.UTF-8):	Gattrib dla projektu gEDA
 Name:		geda-gattrib
-Version:	1.4.0
+Version:	1.4.2
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/release/v1.4/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	e3a455f46c37fcf2ff93cc87bf20dc32
+# Source0-md5:	f5e85cceedb47b55437b8f14888d10cf
 URL:		http://www.geda.seul.org/
 BuildRequires:	glib2-devel >= 2.2.0
 BuildRequires:	libgeda-devel >= %{version}
@@ -24,7 +24,8 @@ Gattrib dla projektu gEDA.
 %setup -q
 
 %build
-%configure
+%configure \
+	--disable-update-desktop-database
 %{__make}
 
 %install
@@ -32,6 +33,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+mv $RPM_BUILD_ROOT%{_localedir}/{nl_NL,nl}
+mv $RPM_BUILD_ROOT%{_localedir}/{de_DE,de}
+mv $RPM_BUILD_ROOT%{_localedir}/{es_ES,es}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
