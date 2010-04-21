@@ -2,7 +2,7 @@ Summary:	Gattrib for gEDA project
 Summary(pl.UTF-8):	Gattrib dla projektu gEDA
 Name:		geda-gattrib
 Version:	1.4.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/release/v1.4/%{version}/%{name}-%{version}.tar.gz
